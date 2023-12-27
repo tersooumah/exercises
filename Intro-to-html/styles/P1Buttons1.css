@@ -1,0 +1,51 @@
+.request-button{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border: none;
+  height: 36px;
+  width: 125px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: 0.15s;
+}
+
+.request-button:hover{
+  opacity: 0.8;
+
+}
+
+.Cart-button{
+  background-color: rgb(255, 216, 20);
+  color: black;
+  font-size: 15px;
+  border: none;
+  height: 36px;
+  width: 200px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.Cart-button:hover{
+  background-color: rgb(219, 185, 16);
+}
+
+.Download-button{
+  background-color: white;
+  color: rgb(108, 117, 125);
+  font-size: 15px;
+  border-width: 1px;
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  height: 36px;
+  width: 100px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.Download-button:hover{
+  background-color: rgb(108, 117, 125);
+  color: white;
+}

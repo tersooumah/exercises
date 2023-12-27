@@ -1,0 +1,27 @@
+p {
+  font-family: Arial;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.free {
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 15px;
+  margin-top: 20px;
+}
+
+.free-extra {
+  color: grey;
+  font-weight: 100;
+}
+
+.H1 {
+  width: 800px;
+  margin-bottom: 20px;
+}
+
+.chp_it {
+  color: rgb(0, 145, 255);
+}

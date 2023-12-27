@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>P13flexbox</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    
+
+    body {
+      height: 1000px;
+    }
+
+
+
+    .container-1{
+      display: flex;
+      height: 50px;
+      flex-direction: row;
+    }
+    .pink-box {
+      background-color: lightpink;
+      width: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .blue-box {
+      background-color: lightblue;
+      width: 200px;
+    }
+
+    .item1 {
+      color: white;
+      background-color: black;
+
+
+    }
+
+    .container-2{
+      display: flex;
+      height: 50px;
+      flex-direction: row;
+      margin-top: 30px;
+    }
+
+    .row-b {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .row2 {
+      color: white;
+      background-color: black;
+      display: flex;
+
+
+    }
+
+    .container-3 {
+      margin-top: 20px;
+      margin-left: 20px;
+      border-width: 1px;
+      border-radius: 4px;
+      width: 400px;
+      font-family: Roboto, Arial;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+
+    }
+
+    .heading {
+      font-size: 14px ;
+      margin-bottom: 15px;
+      color: grey;
+    }
+
+    .email {
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .sender-picture-container {
+      margin-right: 10px;
+    }
+
+    .profile-picture {
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+
+    }
+
+    .email-content {
+      flex: 1;
+    }
+
+    .message-heading {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 3px;
+      align-items: center;
+    }
+
+    .sender-name {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .send-time {
+      font-size: 14px;
+      color: grey;
+
+    }
+
+    .subject {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .message {
+      color: grey;
+    }
+
+    .container-4 {
+      margin-top: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 420px;
+      font-family: Roboto, Arial;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .profile-div {
+      margin-right: 10px;
+    }
+
+    .tweet-column {
+      flex: 1;
+    }
+
+    .identity {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 5px;
+    }
+
+    .profile-name {
+      font-weight: bold;
+      margin-right: 5px;
+    }
+
+    .username {
+      color: rgb(97, 97, 97);
+    }
+
+    .tweet-content{
+      line-height: 20px;
+      margin-bottom: 15px;
+    }
+
+    .video-preview {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border-width: 1px;
+      border-color: rgb(226, 226, 226);
+      border-style: solid;
+      overflow: hidden;
+      border-radius: 15px;
+ 
+    }
+    .grey-area {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(226, 226, 226);
+      margin-right: 10px;
+    }
+
+    .link-name {
+      color: rgb(112, 112, 112);
+      margin-bottom: 3px;
+    }
+
+    .video-info-column {
+      flex: 1;
+    }
+
+    .video-title {
+      line-height: 22px;
+    }
+
+
+
+
+
+  </style>
+
+</head>
+<body>
+
+  <div class="container-1">
+    <div class="pink-box">
+      <div class="item1">item1</div> 
+    </div>
+    <div class="blue-box"></div>
+  </div>
+
+
+  <div class="container-2">
+    <div class="pink-box">
+    </div>
+    <div class="blue-box">
+      <div class="row-a">row1</div>
+      <div class="row-b">
+          <div class="row2">row 2</div>
+          <div class="row2">row 2</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-3">
+    <div class="heading">ALL INBOXES</div>
+    <div class="email">
+      <div class="sender-picture-container">
+        <img class="profile-picture" src="/Intro-to-html/Pthumbnails/cat.jpg">
+      </div>
+    
+
+      <div class="email-content">
+        <div class="message-heading">
+          <div class="sender-name">Chewy Promotions</div>
+          <div class="send-time">4:58 PM</div>
+        </div>
+        
+        <div class="subject">Biggest sales of the year!</div>
+        <div class="message">Hey there! We're writing to tell you about our...</div>
+      </div>
+    </div>
+
+
+
+    <div class="email">
+      <div class="sender-picture-container">
+        <img class="profile-picture" src="/Intro-to-html/Pthumbnails/dog.jpg">
+      </div>
+    
+
+      <div class="email-content">
+        <div class="message-heading">
+          <div class="sender-name">Best Buy</div>
+          <div class="send-time">12:32 PM</div>
+        </div>
+        
+        <div class="subject">Your Best Buy eReceipt</div>
+        <div class="message">Thank you for shopping at Best Buy here is...</div>
+      </div>
+    </div>
+
+
+
+    <div class="email">
+      <div class="sender-picture-container">
+        <img class="profile-picture" src="/Intro-to-html/Pthumbnails/cat2.jpg">
+      </div>
+    
+
+      <div class="email-content">
+        <div class="message-heading">
+          <div class="sender-name">Netflix</div>
+          <div class="send-time">4:58 PM</div>
+        </div>
+        
+        <div class="subject">Here's what's coming soon to Netflix</div>
+        <div class="message">Brand new movies and shows, old favorites...</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-4">
+    <div class="profile-div">
+      <img class="profile-picture" src="/Intro-to-html/Pthumbnails/cat.jpg">
+    </div>
+    <div class="tweet-column">
+      <div class="identity">
+        <div class="profile-name">supersimple.dev</div>
+        <div class="username">@SuperSimpleDev</div>
+      </div>
+      <div class="tweet-content">What is backend web development? A complete overview. New video is up!</div>
+
+      <div class="video-preview">
+        <div class="grey-area"></div>
+        <div class="video-info-column">
+          <div class="link-name">youtube.com</div>
+          <div class="video-title">Backend web development - a complete overview (2021)</div>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+
+
+
+
+
+
+
+</body>
+
+
+</html>

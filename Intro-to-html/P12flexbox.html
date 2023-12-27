@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>P12Flex</title>
+
+  <style>
+
+    .container{
+      margin-top: 50px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgb(200, 200, 200);
+      border-radius: 6px;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 300px;
+      margin-bottom: 30px;
+
+    }
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      align-items: center;
+        
+    }
+
+
+    .numbers {
+      background-color: rgb(49, 109, 245);
+      border-radius: 20px;
+      color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      font-size: 14px;
+      font-weight: bold;
+
+
+    }
+
+    p{
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      margin-bottom: 0;
+    }
+    .row{
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 20px;
+
+    }
+
+
+    .profile-picture {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-right: 15px;
+    }
+
+    .follow-button {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        background-color: rgb(0, 162, 255);
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .info {
+      width: 200px;
+    }
+
+    .name {
+        font-weight: bold;
+      }
+
+    .handle, .category {
+        color: rgb(96, 96, 96);
+        font-size: 18px;
+      }
+
+      .search-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(128, 58, 160);
+        height: 60px;
+        align-items: center;
+
+      }
+      .home {
+        color: white;
+        font-weight: bold;
+        margin-left: 15px;
+        margin-right: 40px;
+        font-size: 15px;
+      }
+
+      .search-box {
+        width: 700px;
+        border-radius: 20px;
+        border: none;
+        height: 25px;
+        padding-left: 20px;
+        flex: 1;
+        max-width: 800px;
+      }
+
+      .download-button {
+        border-style: solid;
+        border-radius: 0;
+        border-width: 1px;
+        margin-left: 40px;
+        margin-right: 15px;
+        border-color: white;
+        background-color: rgb(128, 58, 160);
+        color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+      
+
+      }
+
+  
+
+
+  </style>
+
+</head>
+<body style="
+height: 1000px;">
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    ">
+    <div style="background-color: lightblue;
+    width: 200px;">200px</div>
+    <div style="background-color: lightpink;
+    width: 75px;">75px</div>
+
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    ">
+    <div style="background-color: lightblue;
+    width: 50px;">item1</div>
+    <div style="background-color: lightpink;
+    flex: 1;">item2</div>
+    <div style="background-color: lightblue;
+    width: 75px;">item3</div>
+  
+</div>
+
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-between;
+    ">
+    <div style="background-color: lightpink;">item1</div>
+    <div style="background-color: lightpink">item2</div>
+    <div style="background-color: lightpink;">item3</div>
+    <div style="background-color: lightpink;">item4</div>
+
+  </div>
+
+
+  <div style="
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  height: 50px;
+  align-items: center;
+
+  ">
+  <div style="background-color: lightpink;">item1</div>
+  <div style="background-color: lightpink">item2</div>
+
+</div>
+
+
+
+<div class="container">
+
+<div class="flexbox">
+  <div>Home</div> 
+  <div class="numbers">14</div>
+</div>
+
+<div class="flexbox">
+  <div>Notifications</div> <div class="numbers">3</div>
+</div>
+
+<div class="flexbox">
+  <div>Messages</div> <div class="numbers">5</div>
+</div>
+  
+
+</div>
+
+
+
+  <div class="row">
+    <img class="profile-picture" src="Pthumbnails/cat.jpg">
+
+  <div class="info">
+    <p class="name">oliver</p>
+    <p class="handle">the cat</p>
+    <p class="category">Popular</p>
+  </div>
+  
+    <button class="follow-button">Follow</button>
+  </div>
+
+
+ 
+    <div class="row">
+      <img class="profile-picture" src="Pthumbnails/cat2.jpg">
+
+    <div class="info">
+      <p class="name">Mimi</p>
+      <p class="handle">Sleepy Cat</p>
+      <p class="category">Popular</p>
+    </div>
+
+      <button class="follow-button">Follow</button>
+
+    </div>
+
+
+      <div class="row">
+        <img class="profile-picture" src="Pthumbnails/dog.jpg">
+ 
+        <div class="info">
+          <p class="name">Rex</p>
+          <p class="handle">Happy Bulldog</p>
+          <p class="category">Popular</p>
+        </div>
+        
+          <button class="follow-button">Follow</button>
+
+      </div>
+
+    <div class="search-bar">
+
+      <p class="home">Home</p>
+
+      <div>
+        <input class="search-box" placeholder="Search">
+      </div>
+
+      <button class="download-button">Download</button>
+
+    </div>
+
+
+</body>
+
+</html>

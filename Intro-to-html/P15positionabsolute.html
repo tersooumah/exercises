@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>P15 Position Absolute and Relative</title>
+  <style>
+
+    body {
+      height: 3000px
+    }
+
+    .close-button {
+      font-size: 16px;
+      font-family: arial;
+      color: white;
+      background-color: black;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      border-radius: 15px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    
+    }
+
+    .thumbnail {
+      width: 320px;
+      height: 180px;
+      background-color: grey;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+
+      
+    }
+
+    .close-button-thumbnail {
+      font-size: 16px;
+      font-family: arial;
+      color: white;
+      background-color: black;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      border-radius: 15px;
+      position: absolute;
+      top: -10px;
+      left: -10px;
+
+
+    }
+
+    .vidoe-time {
+      color: white;
+      background-color: black;
+      font-family: Arial;
+      font-size: 13px;
+      padding-left: 5px;
+      padding-top: 2px;
+      padding-right: 5px;
+      padding-bottom: 2px;
+      bottom: 5px;
+      right: 5px;
+      position: absolute;
+
+    }
+
+    .cloth-thumbnail{
+      position: relative;
+      display: inline-block;
+      
+    }
+
+    .shirt {
+      height: 300px;
+      width: 300px;
+      object-fit: cover;
+      object-position: center;
+
+    }
+
+    .discount-tag {
+      position: absolute;
+      right: 0;
+      top: 10px;
+      color: white;
+      background-color: black;
+      font-family: arial;
+      font-size: 12px;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+
+    .cloth-thumbnail2{
+      position: relative;
+      display: inline-block;
+      margin-left: 20px;
+    }
+
+    .button-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 80px;
+      background-color: rgba(225, 225, 225, 0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .add-to-cart-button{
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-color: black;
+
+    }
+
+
+
+  </style>
+
+
+</head>
+
+<body>
+
+  <div class="close-button">X</div>
+  <div class="thumbnail">
+    <div class="close-button-thumbnail">X</div>
+    <div class="vidoe-time">0:29</div>
+  </div>
+
+  <div class="cloth-thumbnail">
+    <img class="shirt" src="Pthumbnails/shirt.jpg">
+    <div class="discount-tag">20% OFF</div>
+  </div>
+
+  <div class="cloth-thumbnail2">
+    <img class="shirt" src="Pthumbnails/shirt.jpg">
+    <div class="discount-tag">20% OFF</div>
+    <div class="button-overlay">
+      <button class="add-to-cart-button">Add to Cart</button>
+    </div>
+  </div>
+
+
+</body>
+
+
+
+</html>

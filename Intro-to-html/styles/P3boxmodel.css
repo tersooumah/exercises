@@ -1,0 +1,84 @@
+.Back-Button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-results{
+  font-size: 16px;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.Next-Button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 8px;
+  font-size: 16px; 
+  cursor: pointer;
+}
+
+.Stretch-Button{
+  background-color: green;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+  border: none;
+  transition: 1s;
+  cursor: pointer;
+}
+.Stretch-Button:hover{
+  cursor: pointer;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.Shadow-Button{
+  background-color: green;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.Shadow-Button:active{
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+  
+}
+
+.Number-Buttons{
+  background-color: green;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: padding 0.15s, margin 0.15s;
+
+}
+
+.Number-Buttons:hover{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
